@@ -1,0 +1,23 @@
+
+#Calculator
+
+print("1 for addition")
+print("2 for substraction")
+print("3 for mutiplication")
+print("4 for addition")
+choice=int(input("enter from 1 to 4 according to above instruction:--"))
+num_1=int(input("Enter a first number:--"))
+num_2=int(input("Enter a second number:--"))
+if choice==1:
+    print("ADDITION OF TWO NUMBER IS:", num_1+num_2)
+elif choice==2:
+    print("SUBSTRACTION OF TWO NUMBER IS:",num_1-num_2)
+elif choice==3:
+    print("MULTIPLICATION OF TWO NUMBER IS:",num_1*num_2)
+elif choice==4:
+    print("DIVISION OF TWO NUMBER IS:",num_1/num_2)
+else:
+    print("Invalid choice enter between 1 to 4")
+    
+    
+
